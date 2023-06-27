@@ -1,5 +1,5 @@
 import React from "react";
-import sellCar from "../assets/images/sell-car.png";
+
 import "../styles/sell-car.css";
 
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";

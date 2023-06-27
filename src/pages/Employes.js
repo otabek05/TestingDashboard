@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import "../styles/bookings.css";
 
-import carData from "../assets/dummy-data/data.js";
+
 import EmployeeItem from "../components/Forms/EmployeeItem";
 import { NavLink } from "react-router-dom";
 
