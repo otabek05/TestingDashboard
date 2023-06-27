@@ -3,11 +3,14 @@ import sellCar from "../assets/images/sell-car.png";
 import "../styles/sell-car.css";
 
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
+import RegisterForm from "../components/Forms/RegisterForm";
 
-const SellCar = () => {
+const Buildings = () => {
   const percentage = 55;
   const percentage02 = 45;
   return (
+
+    
     <div className="sell__car">
       <div className="sell__car-wrapper">
         <div className="offer__wrapper">
@@ -131,8 +134,9 @@ const SellCar = () => {
           </div>
         </div>
       </div>
+      <RegisterForm ></RegisterForm>
     </div>
   );
 };
 
-export default SellCar;
+export default Buildings;

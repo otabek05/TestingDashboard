@@ -1,13 +1,10 @@
 import React from "react";
 import "../styles/dashboard.css";
-import SingleCard from "../components/reuseable/SingleCard";
+import SingleCard from "../components/Forms/SingleCard";
 
-import MileChart from "../charts/MileChart";
-import CarStatsChart from "../charts/CarStatsChart";
-import RecommendCarCard from "../components/UI/RecommendCarCard";
 
-import recommendCarsData from "../assets/dummy-data/recommendCars";
-import MapComponent from "../components/MapComponent";
+
+import MapComponent from "./MapComponent";
 
 const carObj = {
   title: "Total Buildings",

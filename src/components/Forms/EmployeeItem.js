@@ -1,6 +1,6 @@
 import React from "react";
 
-const CarItem = (props) => {
+const EmployeeItem = (props) => {
   const { category, type, rentPrice, imgUrl, carName, groupSize } = props.item;
   return (
     <div className="car__item">
@@ -35,4 +35,4 @@ const CarItem = (props) => {
   );
 };
 
-export default CarItem;
+export default EmployeeItem;

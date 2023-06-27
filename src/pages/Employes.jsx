@@ -1,10 +1,23 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import "../styles/bookings.css";
 
-import carData from "../assets/dummy-data/booking-cars.js";
-import CarItem from "../components/UI/CarItem";
+import carData from "../assets/dummy-data/data.js";
+import EmployeeItem from "../components/Forms/EmployeeItem";
+import { NavLink } from "react-router-dom";
 
-const Bookings = () => {
+const Employees= () => {
+  const [employees, setEmployee] = useState([])
+
+  useEffect(() => {
+    // axios.get("https://jsonplaceholder.typicode.com/users")
+    // .then((res) => {
+    //     setEmployee(res.data)
+    //   })
+    // .catch((err) => {
+    //     console.log(err)
+    //
+    console.log("Hell World")
+  }, [])
   return (
     <div className="bookings">
       <div className="booking__wrapper">
@@ -26,11 +39,12 @@ const Bookings = () => {
               <option value="audi">Audi</option>
             </select>
           </div>
+          <div><NavLink to="/register">Register new Employee</NavLink></div>
         </div>
 
         <div className="booking__car-list">
-          {carData?.map((item) => (
-            <CarItem item={item} key={item.id} />
+          {employees?.map((item) => (
+            <EmployeeItem item={item} key={item.id} />
           ))}
         </div>
       </div>
@@ -38,4 +52,4 @@ const Bookings = () => {
   );
 };
 
-export default Bookings;
+export default Employees;

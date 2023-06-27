@@ -20,6 +20,7 @@ const TopNav = () => {
             <span className="badge">1</span>
           </span>
           <div className="sidebar__bottom">
+            
           <span>
             <i class="ri-logout-circle-r-line"></i> Logout
           </span>
