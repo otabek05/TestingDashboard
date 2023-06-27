@@ -74,8 +74,8 @@ const MapComponent = () => {
   }, [map, selectedMarker]);
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' ,height:'74vh'}}>
-      <div  id="map" style={{ width: '100%', height: '90%', border:"none", boxShadow: "0px 0px 5px green"}}></div>
+    <div style={{ display: 'flex', justifyContent: 'left', alignItems: 'center' ,height:'74vh'}}>
+      <div  id="map" style={{ width: '70%', height: '90%', border:"none", boxShadow: "0px 0px 5px green"}}></div>
       {selectedAddress && (
         <div>
           <h2>Selected Address</h2>

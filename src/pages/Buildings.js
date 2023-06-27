@@ -16,14 +16,7 @@ const Buildings = () => {
         <div className="offer__wrapper">
           <div className="offer__top">
             <h2 className="sell__car-title">Cities</h2>
-
-            <div className="filter__widget-01">
-              <select>
-                <option value="toyota">Toyota</option>
-              </select>
-            </div>
           </div>
-
           <div className="offer__list">
             <div className="offer__item">
               <div className="box__01">
@@ -34,7 +27,7 @@ const Buildings = () => {
 
                 <h6 className="market__price">Market average is $16,244</h6>
                 <span className="arrow__key">
-                  <i class="ri-arrow-right-line"></i>
+                  <i className="ri-arrow-right-line"></i>
                 </span>
               </div>
 
@@ -56,7 +49,7 @@ const Buildings = () => {
 
               <div className="box__03">
                 <span className="model__spend-icon">
-                  <i class="ri-car-line"></i>
+                  <i classNmae="ri-car-line"></i>
                 </span>
                 <h6 className="spend__amount">$1174</h6>
                 <p className="spend__title">Model Spend</p>
@@ -64,7 +57,7 @@ const Buildings = () => {
 
               <div className="box__04">
                 <span className="model__spend-icon">
-                  <i class="ri-share-forward-line"></i>
+                  <i className="ri-share-forward-line"></i>
                 </span>
                 <h6 className="spend__amount">$1174</h6>
                 <p className="spend__title">Model Spend</p>
@@ -72,7 +65,7 @@ const Buildings = () => {
 
               <div className="box__05">
                 <span className="model__spend-icon">
-                  <i class="ri-money-dollar-circle-line"></i>
+                  <i className="ri-money-dollar-circle-line"></i>
                 </span>
                 <h6 className="spend__amount">$811</h6>
                 <p className="spend__title">Spend Per Unit Turned</p>
@@ -87,7 +80,7 @@ const Buildings = () => {
 
                 <h6 className="market__price">Market average is $11,244</h6>
                 <span className="arrow__key">
-                  <i class="ri-arrow-right-line"></i>
+                  <i className="ri-arrow-right-line"></i>
                 </span>
               </div>
 
@@ -134,7 +127,6 @@ const Buildings = () => {
           </div>
         </div>
       </div>
-      <RegisterForm ></RegisterForm>
     </div>
   );
 };

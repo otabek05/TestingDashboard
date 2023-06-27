@@ -12,8 +12,9 @@ const LoginForm = () => {
     e.preventDefault();
 
     // Send a request to the backend to authenticate the user
-    // Replace `your-backend-url` with the actual URL of your backend endpoint
-    axios
+    // sending login credentials to the backend
+
+    /* axios
       .post('your-backend-url/login', {
         username,
         password,
@@ -35,6 +36,8 @@ const LoginForm = () => {
         console.error('Error:', error);
         setError('An error occurred. Please try again later.');
       });
+      */
+     console.log(username, password);
   };
 
   const handleLogout = () => {

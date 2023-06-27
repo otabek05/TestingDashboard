@@ -33,11 +33,11 @@ const Sidebar = () => {
                 </NavLink>
               </li>
             ))}
+
           </ul>
         </div>
 
-        
-        
+
       </div>
     </div>
   );
